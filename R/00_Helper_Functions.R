@@ -939,6 +939,7 @@ calculate_uv <- function(stack) {
 
 
 
+
 # SDMtune Predictions -----------------------------------------------------
 ## this helper enabes to predict overe a stack of monhtly predictor stack to perform dynamic predictions rather than a single static one 
 
@@ -1387,4 +1388,5 @@ gam_cv <- function(dat,
   
   out
 }
+
 
