@@ -16,9 +16,7 @@ source("R/00_Helper_Functions.R")
 
 
 
-
-
-# tracks <- readRDS( "MODEL_DATA.rds") 
+tracks <- readRDS("MWE_data/MWE_subset_model_data.rds")
 
 
 tracks_m <- tracks |>
